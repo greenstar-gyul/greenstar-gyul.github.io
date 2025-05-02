@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>나만의 Vue 블로그</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/vue@3"></script>
 </head>
 <body>
-  
+  <div id="app">
+    <h1>{{ title }}</h1>
+    <ul>
+      <li v-for="post in posts" :key="post.id">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+      </li>
+    </ul>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
