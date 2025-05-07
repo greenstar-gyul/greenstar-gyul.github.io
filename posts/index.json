@@ -1,0 +1,18 @@
+[
+  {
+    "id": "project-setup",
+    "title": "Vue + Vite 프로젝트 초기 세팅",
+    "category": "web-dev",
+    "type": "vue-express",
+    "summary": "npm create vue@3을 사용하여 greenstar-front 프로젝트를 생성하고 초기 세팅을 완료했습니다.",
+    "date": "2025-05-06"
+  },
+  {
+    "id": "gh-pages-deploy",
+    "title": "GitHub Pages 배포 설정",
+    "category": "web-dev",
+    "type": "vue-express",
+    "summary": "vite.config.js base 설정, gh-pages 브랜치 생성 및 자동 배포 스크립트를 설정하여 블로그를 배포했습니다.",
+    "date": "2025-05-06"
+  }
+]
