@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AlgorithmView from '../views/AlgorithmView.vue'
 import WebDevView from '../views/WebDevView.vue'
 import PortfolioView from '../views/PortfolioView.vue'
+import PostView from '@/views/PostView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,10 @@ const router = createRouter({
     { 
       path: '/:pathMatch(.*)*', // NotFound fallback
       redirect: '/' 
+    },
+    { 
+      path: '/post/:type/:id', // NotFound fallback
+      component: PostView
     }                  
   ],
 })
