@@ -11,7 +11,7 @@
     </div>
   </div>
   <div v-else class="container mt-5">
-    <p>포트폴리오 글을 찾을 수 없습니다.</p>
+    <i>현재 게시된 글이 없거나 찾을 수 없어요...</i>
   </div>
 </template>
 

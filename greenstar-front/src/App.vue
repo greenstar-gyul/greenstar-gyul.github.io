@@ -19,7 +19,9 @@ const updatePageTitle = (title) => {
 
 <template>
   <Header :currentPage="currentPage" @toggle-sidebar="toggleSidebar"></Header>
-  <Sidebar v-if="showSidebar"></Sidebar>
+  <Transition name="slide">
+    <Sidebar v-if="showSidebar"></Sidebar>
+  </Transition>
   <div class="main-content">
     <RouterView @route-changed="updatePageTitle"></RouterView>
   </div>

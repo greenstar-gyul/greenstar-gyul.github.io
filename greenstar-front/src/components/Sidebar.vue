@@ -57,13 +57,34 @@
     top: 60px;
     left: 0;
     overflow-y: auto;
+    z-index: 999;
   }
+
+  .slide-enter-from,
+  .slide-leave-to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  .slide-enter-active,
+  .slide-leave-active {
+    transition: all 0.3s ease;
+  }
+
+  .slide-enter-to,
+  .slide-leave-from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
   .nav-link {
     color: #333;
   }
-  .nav-link.router-link-active {
+
+  .nav-link
+  .router-link-active {
     font-weight: bold;
     color: #0d6efd;
   }
-  </style>
+</style>
   
