@@ -40,10 +40,10 @@
         <!-- Portfolio 섹션 -->
         <li class="nav-item text-muted fw-bold mb-1">🧰 Portfolio</li>
         <li class="nav-item ps-3">
-          <RouterLink to="/portfolio/1" class="nav-link">포폴1</RouterLink>
+          <RouterLink to="/portfolio/5" class="nav-link">Gyul TxT RPG</RouterLink>
         </li>
         <li class="nav-item ps-3">
-          <RouterLink to="/portfolio/2" class="nav-link">포폴2</RouterLink>
+          <RouterLink to="/portfolio/6" class="nav-link">Gemdori</RouterLink>
         </li>
   
       </ul>

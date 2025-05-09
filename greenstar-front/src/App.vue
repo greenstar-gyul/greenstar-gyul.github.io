@@ -37,8 +37,8 @@ body {
   transition: padding-left 0.3s;
 }
 @media (min-width: 768px) {
-  .main-content {
+  /* .main-content {
     padding-left: 200px;
-  }
+  } */
 }
 </style>

@@ -30,5 +30,21 @@
     "type": "algorithm",
     "summary": "알고리즘 글 테스트 용 글 입니다~~",
     "date": "2025-05-08"
+  },
+  {
+    "id": "5",
+    "title": "Gyul 텍스트 기반 RPG",
+    "category": "portfolio",
+    "type": "portfolio",
+    "summary": "여러 선택지를 고르면서 플레이하는 텍스트 기반의 게임",
+    "date": "2025-05-08"
+  },
+  {
+    "id": "6",
+    "title": "Gemdori-게임 판매 사이트",
+    "category": "portfolio",
+    "type": "portfolio",
+    "summary": "다양한 게임을 쉽게 구매하고, 평점과 리뷰를 등록할 수 있는 통합 게임 판매 플랫폼",
+    "date": "2025-05-09"
   }
 ]

@@ -5,7 +5,7 @@
     <p><strong>작성일:</strong> {{ post.date }}</p>
     <p class="lead">{{ post.summary }}</p>
     <div>
-      <RouterLink :to="`/post/${post.id}`" class="btn btn-primary mt-2">
+      <RouterLink :to="`/post/${post.type}/${post.id}`" class="btn btn-primary mt-2">
         본문 보기
       </RouterLink>
     </div>
