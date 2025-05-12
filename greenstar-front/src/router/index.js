@@ -4,6 +4,7 @@ import AlgorithmView from '../views/AlgorithmView.vue'
 import WebDevView from '../views/WebDevView.vue'
 import PortfolioView from '../views/PortfolioView.vue'
 import PostView from '@/views/PostView.vue'
+import DatabaseView from '@/views/DatabaseView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,10 @@ const router = createRouter({
     { 
       path: '/webdev/:type', // Web Dev
       component: WebDevView 
+    },           
+    { 
+      path: '/db/:type', // Web Dev
+      component: DatabaseView 
     },           
     { 
       path: '/portfolio/:id', // 포폴

@@ -36,6 +36,18 @@
 
         <!-- 구분선 -->
         <li><hr /></li>
+
+        <!-- PL/SQL 섹션 -->
+        <li class="nav-item text-muted fw-bold mb-1">💾 Database</li>
+        <li class="nav-item ps-3">
+          <RouterLink to="/db/sql" class="nav-link">SQL</RouterLink>
+        </li>
+        <li class="nav-item ps-3">
+          <RouterLink to="/db/plsql" class="nav-link">PL/SQL</RouterLink>
+        </li>
+
+        <!-- 구분선 -->
+        <li><hr /></li>
   
         <!-- Portfolio 섹션 -->
         <li class="nav-item text-muted fw-bold mb-1">🧰 Portfolio</li>
