@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
+import { ref, nextTick, onMounted } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from './components/Sidebar.vue';
 import Header from './components/Header.vue'

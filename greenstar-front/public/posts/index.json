@@ -54,5 +54,13 @@
     "type": "plsql",
     "summary": "PL/SQL이 뭔지, SQL을 다시 떠올려볼까요?",
     "date": "2025-05-12"
+  },
+  {
+    "id": "8",
+    "title": "PL/SQL - (2)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL의 기본 문법과 조건문, 반복문을 알아볼까요?",
+    "date": "2025-05-13"
   }
 ]

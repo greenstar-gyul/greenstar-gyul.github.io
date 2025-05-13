@@ -16,16 +16,30 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const id = route.params.id
+const id = ref()
 const post = ref(null)
 
-onMounted(async () => {
+const loadPosts = async function() {
+  id.value = route.params.id;
   const res = await fetch('/posts/index.json')
   const posts = await res.json()
   post.value = posts.find(p => p.id === id && p.type === 'portfolio')
+}
+
+onMounted(() => {
+  loadPosts();
 })
+
+watch(() => route.params.id, (newId) => {
+  // type.value = newType;
+  // console.log(type.value);
+  loadPosts();
+  // title.value = categoryTitle();
+  // emit('route-changed', title.value);
+  // console.log(title.value);
+});
 </script>
