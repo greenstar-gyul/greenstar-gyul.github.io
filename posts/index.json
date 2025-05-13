@@ -46,5 +46,13 @@
     "type": "portfolio",
     "summary": "다양한 게임을 쉽게 구매하고, 평점과 리뷰를 등록할 수 있는 통합 게임 판매 플랫폼",
     "date": "2025-05-09"
+  },
+  {
+    "id": "7",
+    "title": "PL/SQL - (1)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL이 뭔지, SQL을 다시 떠올려볼까요?",
+    "date": "2025-05-12"
   }
 ]
