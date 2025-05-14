@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-5" v-if="html">
-    <div v-html="html"></div>
+    <div class="markdown-body" v-html="html"></div>
   </div>
 </template>
 

@@ -4,6 +4,7 @@ import { ref, nextTick, onMounted } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from './components/Sidebar.vue';
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue';
 
 const showSidebar = ref(false);
 const currentPage = ref('홈');
@@ -25,6 +26,7 @@ const updatePageTitle = (title) => {
   <div class="main-content">
     <RouterView @route-changed="updatePageTitle"></RouterView>
   </div>
+  <Footer></Footer>
 </template>
 
 <style>
