@@ -17,10 +17,10 @@
   },
   {
     "id": "3",
-    "title": "자료구조 글 테스트",
+    "title": "배열과 연결리스트",
     "category": "algorithm",
     "type": "data-structure",
-    "summary": "자료구조 글 테스트 용 글 입니다~~",
+    "summary": "가장 기본적인 자료구조인 배열과 연결리스트를 알아볼까요?",
     "date": "2025-05-07"
   },
   {
@@ -54,5 +54,29 @@
     "type": "plsql",
     "summary": "PL/SQL이 뭔지, SQL을 다시 떠올려볼까요?",
     "date": "2025-05-12"
+  },
+  {
+    "id": "8",
+    "title": "PL/SQL - (2)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL의 기본 문법과 조건문, 반복문을 알아볼까요?",
+    "date": "2025-05-13"
+  },
+  {
+    "id": "9",
+    "title": "스택과 큐",
+    "category": "algorithm",
+    "type": "data-structure",
+    "summary": "기초적인 스택과 큐에 대해 알아볼까요?",
+    "date": "2025-05-14"
+  },
+  {
+    "id": "10",
+    "title": "PL/SQL - (3)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL를 본격적으로 더 알아볼까요?",
+    "date": "2025-05-14"
   }
 ]
