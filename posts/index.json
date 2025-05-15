@@ -79,12 +79,20 @@
     "summary": "PL/SQL를 본격적으로 더 알아볼까요?",
     "date": "2025-05-14"
   },
-    {
+  {
     "id": "11",
     "title": "PL/SQL - (4)",
     "category": "db",
     "type": "plsql",
-    "summary": "PL/SQL",
+    "summary": "PL/SQL의 커서를 좀 더 쉽게 쓰고 예외처리를 알아볼까요?",
     "date": "2025-05-14"
+  },
+  {
+    "id": "12",
+    "title": "PL/SQL - (5)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL의 프로시저에 대해 알아볼까요?",
+    "date": "2025-05-15"
   }
 ]
