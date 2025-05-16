@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { ref, nextTick, onMounted } from 'vue';
+import { ref } from 'vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from './components/Sidebar.vue';
 import Header from './components/Header.vue'
@@ -19,25 +19,41 @@ const updatePageTitle = (title) => {
 </script>
 
 <template>
-  <Header :currentPage="currentPage" @toggle-sidebar="toggleSidebar"></Header>
-  <Transition name="slide">
-    <Sidebar v-if="showSidebar"></Sidebar>
-  </Transition>
-  <div class="main-content">
-    <RouterView @route-changed="updatePageTitle"></RouterView>
+  <div class="main-layout d-flex flex-column min-vh-100">
+    <Header :currentPage="currentPage" @toggle-sidebar="toggleSidebar" />
+
+    <Transition name="slide">
+      <Sidebar v-if="showSidebar" />
+    </Transition>
+
+    <main class="main-content flex-grow-1">
+      <RouterView @route-changed="updatePageTitle" />
+    </main>
+
+    <Footer />
   </div>
-  <Footer></Footer>
 </template>
 
 <style>
 body {
   margin: 0;
 }
+
+/* 전체 레이아웃 컨테이너 */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 메인 콘텐츠 영역 */
 .main-content {
   padding-top: 60px; /* header height */
   padding-left: 0;
   transition: padding-left 0.3s;
 }
+
+/* 데스크탑 사이드바 대응 */
 @media (min-width: 768px) {
   /* .main-content {
     padding-left: 200px;

@@ -27,7 +27,7 @@ const loadPosts = async function() {
   id.value = route.params.id;
   const res = await fetch('/posts/index.json')
   const posts = await res.json()
-  post.value = posts.find(p => p.id === id && p.type === 'portfolio')
+  post.value = await posts.find(p => p.id == id.value)
 }
 
 onMounted(() => {
@@ -35,6 +35,7 @@ onMounted(() => {
 })
 
 watch(() => route.params.id, (newId) => {
+  // id.value = newId;
   // type.value = newType;
   // console.log(type.value);
   loadPosts();

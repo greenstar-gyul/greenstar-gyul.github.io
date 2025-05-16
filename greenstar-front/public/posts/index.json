@@ -94,5 +94,13 @@
     "type": "plsql",
     "summary": "PL/SQL의 프로시저에 대해 알아볼까요?",
     "date": "2025-05-15"
+  },
+  {
+    "id": "13",
+    "title": "PL/SQL - (6)",
+    "category": "db",
+    "type": "plsql",
+    "summary": "PL/SQL의 함수에 대해 알아볼까요?",
+    "date": "2025-05-16"
   }
 ]
