@@ -102,5 +102,29 @@
     "type": "plsql",
     "summary": "PL/SQL의 함수에 대해 알아볼까요?",
     "date": "2025-05-16"
+  },
+  {
+    "id": "14",
+    "title": "데이터 모델링 - (1)",
+    "category": "db",
+    "type": "data-modeling",
+    "summary": "",
+    "date": "2025-05-19"
+  },
+  {
+    "id": "15",
+    "title": "데이터 모델링 - (2)",
+    "category": "db",
+    "type": "data-modeling",
+    "summary": "",
+    "date": "2025-05-19"
+  },
+  {
+    "id": "16",
+    "title": "데이터 모델링 - (3)",
+    "category": "db",
+    "type": "data-modeling",
+    "summary": "",
+    "date": "2025-05-19"
   }
 ]
