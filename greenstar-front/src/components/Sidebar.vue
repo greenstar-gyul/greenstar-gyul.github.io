@@ -33,6 +33,9 @@
         <li class="nav-item ps-3">
           <RouterLink to="/webdev/backend" class="nav-link">Backend</RouterLink>
         </li>
+        <li class="nav-item ps-3">
+          <RouterLink to="/webdev/spring" class="nav-link">Spring</RouterLink>
+        </li>
 
         <!-- 구분선 -->
         <li><hr /></li>
