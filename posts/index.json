@@ -190,5 +190,13 @@
     "type": "spring",
     "summary": "Spring Boot를 사용하여 스프링 애플리케이션을 쉽게 개발하는 방법을 알아볼까요?",
     "date": "2025-07-03"
+  },
+  {
+    "id": "25",
+    "title": "스프링 프레임워크 - (7) Thymeleaf",
+    "category": "web-dev",
+    "type": "spring",
+    "summary": "Thymeleaf를 사용하여 HTML 템플릿을 렌더링하는 방법을 알아볼까요?",
+    "date": "2025-07-04"
   }
 ]
