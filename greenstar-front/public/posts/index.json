@@ -198,5 +198,29 @@
     "type": "spring",
     "summary": "Thymeleaf를 사용하여 HTML 템플릿을 렌더링하는 방법을 알아볼까요?",
     "date": "2025-07-04"
+  },
+  {
+    "id": "26",
+    "title": "스프링 프레임워크 - (8) @RequestPart 파일업로드",
+    "category": "web-dev",
+    "type": "spring",
+    "summary": "@RequestPart를 사용하여 파일 업로드를 처리하는 방법을 알아볼까요?",
+    "date": "2025-07-09"
+  },
+  {
+    "id": "27",
+    "title": "스프링 프레임워크 - (9) JPA와 Hibernate",
+    "category": "web-dev",
+    "type": "spring",
+    "summary": "JPA와 Hibernate를 사용하여 객체 관계 매핑을 처리하는 방법을 알아볼까요?",
+    "date": "2025-07-09"
+  },
+  {
+    "id": "28",
+    "title": "스프링 프레임워크 - (10) Spring Security",
+    "category": "web-dev",
+    "type": "spring",
+    "summary": "Spring Security를 사용하여 애플리케이션의 보안을 강화하는 방법을 알아볼까요?",
+    "date": "2025-07-10"
   }
 ]
